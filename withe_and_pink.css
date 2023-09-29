@@ -44,8 +44,8 @@
 }
 
 .reportTable th { /* Encabezado de la tabla */
-  color: #f3646c; /* color letra */
-  background-color: #000000; /* color fondo */             
+  color: #ffffff; /* color letra */
+  background-color: #808080; /* color fondo */             
   border: 1px solid rgba(0, 0, 0, 0.1); /* bordes de la tabla */
   border-bottom: 1px solid #cccccc !important;
   /* font-size: 10px;  */
