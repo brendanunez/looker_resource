@@ -43,9 +43,9 @@
   /* Add customization here  */
 }
 
-.reportTable th { #Encabezado de la tabla
-  color: withe; #color letra
-  background-color: #f3646c; #color fondo              
+.reportTable th { /* Encabezado de la tabla */
+  color: withe; /* color letra */
+  background-color: #f3646c; /* color fondo */             
   border: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc !important;
   /* font-size: 10px;  */
