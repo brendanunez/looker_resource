@@ -44,9 +44,9 @@
 }
 
 .reportTable th { /* Encabezado de la tabla */
-  color: withe; /* color letra */
+  color: #FFFFFF; /* color letra */
   background-color: #f3646c; /* color fondo */             
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.1); /* bordes de la tabla */
   border-bottom: 1px solid #cccccc !important;
   /* font-size: 10px;  */
   /* height: 25px; */
@@ -55,12 +55,13 @@
   /* Add customization here  */
 }
 
-.reportTable td {
-  color: #000000;
+.reportTable td { /* Contenido de la tabla */
+  color: #FFFFFF; /* color letra */
+  background-color: #3d3b63; /* color fondo */ 
   vertical-align: super;
   padding: 5px;
   /*background: #FFFFFF;*/
-  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-collapse: collapse;
 
   /* Add customization here  */
