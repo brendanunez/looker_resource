@@ -55,7 +55,7 @@
   /* Add customization here  */
 }
 
-.reportTable td { /* Contenido de la tabla */
+.reportTable td (odd) { /* Contenido de la tabla */
   color: #000000; /* color letra */
   background-color: #ffffff; /* color fondo */ 
   vertical-align: super;
@@ -65,6 +65,15 @@
   border-collapse: collapse;
   padding: 5px 15px;
 
+  .reportTable td (even) { /* Contenido de la tabla */
+  color: #000000; /* color letra */
+  background-color: #808080; /* color fondo */ 
+  vertical-align: super;
+  padding: 5px;
+  /*background: #FFFFFF;*/
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-collapse: collapse;
+  padding: 5px 15px;
   /* Add customization here  */
 }
 
