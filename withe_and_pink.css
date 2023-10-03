@@ -55,7 +55,7 @@
   /* Add customization here  */
 }
 
-/*.reportTable td { /* Contenido de la tabla */
+.reportTable td { /* Contenido de la tabla */
   color: #000000; /* color letra */
   background-color: #ffffff; /* color fondo */ 
   vertical-align: super;
@@ -64,9 +64,9 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-collapse: collapse;
   padding: 5px 15px;
-}*/
+}
  
-.reportTable tr: nth-child (even) { 
+.reportTable > tbody > tr: nth-child (even) { 
     /* odd: son los números de filas impares
     even: son los números de filas pares*/
     background-color: #140232;
